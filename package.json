@@ -1,0 +1,31 @@
+{
+  "name": "babel-plugin-cena",
+  "version": "1.0.0",
+  "description": "A Babel plugin to make your application instantly awesome",
+  "main": "lib/index.js",
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "nyc qunit tests/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trentmwillis/babel-plugin-cena.git"
+  },
+  "keywords": [
+    "babel-plugin",
+    "john cena"
+  ],
+  "author": "Trent Willis <trentmwillis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trentmwillis/babel-plugin-cena/issues"
+  },
+  "homepage": "https://github.com/trentmwillis/babel-plugin-cena#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "coveralls": "^2.13.1",
+    "nyc": "^10.3.0",
+    "qunit-eslint": "^1.0.0",
+    "qunitjs": "^2.3.2"
+  }
+}
